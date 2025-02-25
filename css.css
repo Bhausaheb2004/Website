@@ -1,0 +1,585 @@
+
+
+/* Skills div is start  */
+.Skills h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px blueviolet;
+}
+.Skills p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.Skills ul{
+    display: flex;
+    justify-items: end;
+}
+.Skills ul li{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: start;
+    padding: 125px;
+    margin-top: -80px;
+}
+#HTML5{
+    margin-top: 90px;
+    margin-left: -240px;
+}
+#CSS3{
+    margin-top: 90px;
+    margin-left: -220px;
+}
+#JavaScript{
+    margin-top: 90px;
+    margin-left: -260px;
+}
+#React{
+    margin-top: 90px;
+    margin-left: -220px;
+}
+#C{
+    margin-top: 90px;
+    margin-left: -200px;
+}
+#CPP{
+    margin-top: 90px;
+    margin-left: -220px;
+}
+/* Experience div is start */
+.Experience h1{
+    position: absolute;
+    margin-top: -240px;
+    color: white;
+    margin-left: 43%;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 0px 0px 7px red;
+}
+.Experience ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+#exp{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+#exp button{
+    margin-top: 80px;
+    margin-left: -190px;
+    padding: 15px;
+    color: white;
+    background: none;
+    border-radius: 10px;
+    border-color: rgb(203, 10, 10);
+    text-shadow: 0px 0px 10px red;
+    font-weight: 700;
+    cursor: pointer;
+}
+#exp button:hover{
+    border: none;
+    background-color: aqua;
+    box-shadow: 0px 0px 40px aqua;
+}
+#pro{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 42%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+#pro button{
+    margin-top: 80px;
+    margin-left: -130px;
+    padding: 15px;
+    color: white;
+    background: none;
+    border-radius: 10px;
+    border-color: rgb(203, 10, 10);
+    text-shadow: 0px 0px 10px red;
+    font-weight: 700;
+    cursor: pointer;
+}
+#pro button:hover{
+    border: none;
+    background-color: aqua;
+    box-shadow: 0px 0px 40px aqua;
+}
+#Happy{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 70%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+#Happy button{
+    margin-top: 80px;
+    margin-left: -120px;
+    padding: 15px;
+    color: white;
+    background: none;
+    border-radius: 10px;
+    border-color: rgb(203, 10, 10);
+    text-shadow: 0px 0px 10px red;
+    font-weight: 700;
+    cursor: pointer;
+}
+#Happy button:hover{
+    border: none;
+    background-color: aqua;
+    box-shadow: 0px 0px 40px aqua;
+}
+/* Education css is start */
+.Education h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px yellowgreen;
+}
+.Education div{
+    display: inline-block;
+    margin-left: 13%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#ten{
+    box-shadow: 0px 0px 10px  black;
+    width: 250px;
+    text-align: center;
+    transition: transfrom, 1s; 
+}
+#ten:hover{
+    transform: scale(1.2,1.2);
+    box-shadow: 0px 0px 20px red;
+}
+#two{
+    box-shadow: 0px 0px 10px  black;
+    width: 250px;
+    text-align: center;
+    transition: transfrom, 1s; 
+}
+#two:hover{
+    transform: scale(1.2,1.2);
+    box-shadow: 0px 0px 20px rgb(153, 204, 23);
+}
+#Be{
+    box-shadow: 0px 0px 10px  black;
+    width: 250px;
+    text-align: center;
+    transition: transfrom, 1s;
+}
+#Be:hover{
+    transform: scale(1.2,1.2);
+    box-shadow: 0px 0px 20px rgb(41, 129, 196);
+}
+/* Working process css is start */
+.Working{
+    height: 570px;
+}
+.Working h1{
+    text-align: center  ;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px rgb(83, 152, 83);
+}
+.Working p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Working div{
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    width: 270px;
+    height: 380px;
+    grid-row: auto;
+    margin-left: 14%;
+    border-radius: 5px;
+    transition: transfrom, 1s;
+}
+.Working div:hover{
+    transform: scale(0.9,0.9);
+    box-shadow: 0px 0px 20px red;
+}
+#div2{
+    margin-left: 38%;
+    margin-top: -28%;
+}
+#div3{
+    margin-left: 62%;
+    margin-top: -28%;
+}
+.Working div h1{
+    text-align: right;
+    text-shadow: 0px 0px 5px red;
+}
+.Working div hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Working div i{
+    margin-left: 40%;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.Working div h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.Working div p{
+    font-weight: 500;
+}
+/* Recent Project css is start */
+.project div h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px red;
+}
+.project div p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 600;
+}
+.imgage li img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 0px 50px 0px 50px ;
+    box-shadow: 1px 1px 10px black;
+    transition: transfrom, 1s;
+    cursor: pointer;
+}
+.imgage li img:hover{
+    transform: scale(0.9,0.9);
+    box-shadow: 0px 0px 20px rgb(125, 62, 62);
+}
+.imgage li{
+    margin-left: 8%;
+    text-decoration: none;
+    margin-top: 20px;
+}
+/* contact css is start */
+.contact{
+    height: 450px;
+}
+.contact h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px red;
+}
+.contact p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.contact div ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    margin-left: 5%;
+}
+.contact div ul i{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(40, 159, 196);
+}
+.contact div ul h3{
+    font-size: 20px;
+    margin-top: 200px;
+}
+.contact h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.contact input{
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.contact input:hover{
+    box-shadow: 0px 0px 10px aqua;
+    border-color: red;
+}
+#massage{
+    position: absolute;
+    margin-top: 70px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-color:3px solid black;
+    margin-left: -61%;
+}
+#massage:hover{
+    box-shadow: 0px 0px 10px aqua;
+    border-color: red;
+}
+.contact button{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -20%;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border-radius: 5px;
+    border-color: red;
+    cursor: pointer;
+}
+.contact button:hover{
+    border: none;
+    background-color: aqua;
+    box-shadow: 0px 0px 40px aqua;
+}
+/* last css div is start */
+.last h1{
+   
+    color: white;
+    margin-left: 20%;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px red;
+}
+.last p{
+    color: white;
+    word-break: break-all;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 55%;
+}
+.last div h2{
+    color: white;
+    margin-left: 65%;
+    margin-top: -17%;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px red;
+}
+.last div ul{
+    margin-left: 50%;
+}
+.last div ul li img{
+    width: 200px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 0px 0px 10px red;
+    transition: transfrom, 1s;
+    cursor: pointer;
+}
+.last div ul li img:hover{
+    transform: scale(0.9,0.9);
+    box-shadow: 0px 0px 30px aquamarine;
+}
+/* footer css is start */
+.footer h1{
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.footer ul{
+    margin-left: 70%;
+    text-decoration: none;
+    margin-top: -20px;
+}
+.footer ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px red;
+    border-radius: 50%;
+    background: white;
+    background: transparent;
+}
+.footer ul li a:hover{
+    background-color: white;
+    box-shadow: 0px 1px 20px yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    /* header is start */
+    .back-header nav h1{
+        font-size: 22px;
+        margin-left: -5px;
+    }
+    .header ul li a{
+        font-size: 15px;
+        margin-left: -30px;
+    }
+    #F-photo{
+        width: 250px;
+        height: 300px;
+    }
+    #i-am{
+        font-size: 48px;
+        margin-left: 20px;
+    }
+    .information h2{
+        font-size: 50px;
+    }
+    .information p{
+        font-size: 20px;
+    }
+    .information button{
+        padding: 10px;
+    }
+
+
+    /* About is start */
+    .About h1{
+        font-size: 50px;
+        margin-top: 480px;
+    }
+    .About h3{
+        font-size: 20px;
+        margin-top: 550px;
+    }
+    .About p{
+        font-size: 15px;
+        margin-top: 630px;
+        font-weight: 500;
+    }
+    .About button{
+        margin-top: 800px;
+    }
+    .About img{
+        width: 220px;
+        height: 250px;
+        margin-left: 15px;
+        margin-top: 550px;
+    }
+}
+
+/*                                                                                               Mobile screen css is start */
+@media screen and (max-width:428px){
+    /* header is start */
+    .back-header nav h1{
+        font-size: 22px;
+        margin-left: -5px;
+        
+    }
+    .header ul li{
+        /* font-size: 15px;
+        margin-left: -30px; */
+        display: none;
+    }
+    #F-photo{
+        position: absolute;
+        width: 250px;
+        height: 300px;
+        margin-left: -130px;
+        margin-top: -510px;
+    }
+    #i-am{
+        font-size: 40px;
+        margin-left: 20px;
+        /* margin-top: 500px; */
+        margin-top: 330px;
+    }
+    .information h2{
+        font-size: 45px;
+        margin-left: 40px;
+    }
+    .information p{
+        font-size: 15px;
+        margin-right: 10%;
+    }
+    .information button{
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+
+    /* About is start */
+    .About h1{
+        font-size: 50px;
+        margin-top: 950px;
+        margin-left: 20%;
+    }
+    .About h3{
+        font-size: 20px;
+        margin-top: 1020px;
+        margin-left: 12px;
+    }
+    .About p{
+        font-size: 15px;
+        margin-top: 1100px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .About button{
+        margin-top: 1310px;
+        margin-left: 25%;
+    }
+    .About img{
+        width: 250px;
+        height: 300px;
+        margin-left: 15%;
+        /* margin-top: 550px; */
+    }
+}
